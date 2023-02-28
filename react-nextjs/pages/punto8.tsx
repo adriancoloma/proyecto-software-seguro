@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Punto8 from "../components/Punto8";
+import Punto8 from "../components/punto8/Punto8";
 
 export default function () {
     return (
