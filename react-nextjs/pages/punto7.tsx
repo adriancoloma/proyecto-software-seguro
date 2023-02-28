@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import {Model} from 'survey-core';
-import {Survey} from 'survey-react-ui';
+
 import 'survey-core/defaultV2.min.css'
 import json from '../utils/encuesta9'
+import dynamic from "next/dynamic";
 
 export default function Punto7() {
+
+
     const [surveyResult, setSurveyResult] = useState(null);
     const [numeroDeSi, setNumeroDeSi] = useState(0);
     const onCompleteSurvey = survey => {
@@ -47,7 +50,6 @@ export default function Punto7() {
                 Implementar medidas de seguridad adecuadas en el desarrollo subcontratado puede ayudar a proteger la información y los sistemas de tu empresa. Si tienes dudas o necesitas ayuda para implementar estas medidas, no dudes en consultar con el equipo de seguridad de la información de tu empresa. Juntos, podemos garantizar la seguridad de la información y los sistemas en todo momento.
             </p>
             <div>
-                {<Survey model={new Model(json)} onComplete={onCompleteSurvey}/>}
                 {surveyResult && numeroDeSi> 5 && (
                     <div>
                         <h1>¡Felicitaciones!</h1>
