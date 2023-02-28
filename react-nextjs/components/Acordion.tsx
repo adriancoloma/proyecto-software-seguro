@@ -11,7 +11,7 @@ function Accordion({ title, children }) {
 
     return (
         <div className="accordion" style={{ border: '1px solid #ddd', borderRadius: '5px', marginBottom: '10px' }}>
-            <div className="accordion-item" style={{ backgroundColor: '#f9f9f9', color: '#333', cursor: 'pointer', fontSize: '16px', fontWeight: 'bold', padding: '10px' }} onClick={toggleAccordion}>
+            <div className="accordion-item" style={{ backgroundColor: '#B5D9EB', color: '#333', cursor: 'pointer', fontSize: '16px', fontWeight: 'bold', padding: '10px' }} onClick={toggleAccordion}>
                 {title}
             </div>
             {isOpen && (
