@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Model} from 'survey-core';
 
 import 'survey-core/defaultV2.min.css'
-import json from '../utils/encuesta9'
+import json from '../utils/encuesta7'
 import contenido from '../utils/contenido-punto7'
 import dynamic from "next/dynamic";
 import Acordion from "../components/Acordion";
@@ -58,6 +58,7 @@ export default function Punto7() {
         })
     }
 
+    const D_formulario8 = dynamic(() => import('../components/punto7/Formulario7'), {ssr: false});
     return (
         <Layout>
             <h1 style={{margin: '30px', textAlign:'center'}}>Desarrollo subcontratado</h1>
@@ -74,6 +75,8 @@ export default function Punto7() {
                     </div>
                 )}
             </div>
+            <hr/>
+            <D_formulario8/>
         </Layout>
     );
 }
