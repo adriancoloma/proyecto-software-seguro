@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import Layout from "../Layout";
 import Punto6a from "./subpuntos/Punto6.a";
 import Punto6b from "./subpuntos/Punto6.b";
@@ -9,8 +10,14 @@ import Punto6g from "./subpuntos/Punto6.g";
 import Punto6h from "./subpuntos/Punto6.h";
 import Punto6i from "./subpuntos/Punto6.i";
 import Punto6j from "./subpuntos/Punto6.j";
+import 'survey-core/defaultV2.min.css'
+
 
 export default function Punto6() {
+
+    const D_formulario8 = dynamic(() => import('./Formulario6'), {ssr: false});
+
+
     return (
         <>
             <Layout title={"14.6.2"}>
@@ -33,6 +40,10 @@ export default function Punto6() {
                 <Punto6h></Punto6h>
                 <Punto6i></Punto6i>
                 <Punto6j></Punto6j>
+
+                <D_formulario8></D_formulario8>
+
+
             </Layout>
         </>
     );
