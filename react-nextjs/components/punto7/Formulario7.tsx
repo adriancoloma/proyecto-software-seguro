@@ -1,7 +1,7 @@
 import {Model} from "survey-core";
 import {useCallback, useState} from "react";
 import {Survey} from "survey-react-ui";
-import Resultados8 from "../punto8/Resultados8";
+import Resultados8 from "../punto7/Resultados7";
 import json from "../../utils/encuesta7";
 import Resultados7 from "./Resultados7";
 export default function Formulario7() {
