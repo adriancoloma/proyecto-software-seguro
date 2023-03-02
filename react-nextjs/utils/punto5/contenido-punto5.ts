@@ -1,6 +1,6 @@
 export default [
     {
-        "titulo": "A) CONTROL",
+        "titulo": "A) Control",
         "listaOrdenada": [
             "Los principios para diseñar sistemas seguros deben establecerse, documentarse, mantenerse y aplicarse a cualquier esfuerzo de implementación de sistemas de información.",
         ]},
