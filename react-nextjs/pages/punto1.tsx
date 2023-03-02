@@ -12,7 +12,7 @@ export default function () {
     return (
         <>
             <Layout title={"Punto 1"}>
-                <h1 style={{margin: '30px', textAlign:'center'}}>Seguridad para el desarrollo</h1>
+                <h1 style={{margin: '30px', textAlign:'center'}}>14.2.1 SEGURIDAD PARA EL DESARROLLO </h1>
                 <Punto1_1></Punto1_1>
                 <Punto1_2></Punto1_2>
                 <Punto1_3></Punto1_3>

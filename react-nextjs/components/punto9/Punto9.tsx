@@ -23,7 +23,7 @@ export default function Punto9() {
     const D_Formulario9 = dynamic(() => import('./Formulario9'), {ssr: false});
     return (
         <>
-            <h1 className={"fs-1"}>Pruebas de aceptación del sistema</h1>
+            <h1 className={"fs-1"}>14.2.9 PRUEBAS DE ACEPTACIÓN DEL SISTEMA </h1>
             <AccordeonDescripcion {...datosAcordeon}></AccordeonDescripcion>
             <hr/>
             <h3 className={"fs-2"}>Encuesta</h3>
