@@ -6,8 +6,8 @@ export default function Punto6i() {
     return (
         <div>
             <Accordion title="I) Control sobre el movimiento de datos desde y hacia el entorno.">
-                <div>El control del movimieto puede variar según el tipo de entorno y los datos que se manejen, se presenta una lista de acciones para cualquier tipo de dato</div>
-                <h6><strong>Políticas sobre Control de Movimiento de Datos</strong></h6>
+                <p>El control del movimieto puede variar según el tipo de entorno y los datos que se manejen, se presenta una lista de acciones para cualquier tipo de dato</p>
+                <h4><strong>Políticas sobre Control de Movimiento de Datos</strong></h4>
                 <ol>
                     <li>Todos los datos deben ser clasificados según su nivel de sensibilidad y deben ser etiquetados y marcados en consecuencia.
                         <div className="text-muted">Proporcionado en el punto: A) Sensibilidad de los datos a procesar, almacenar y transmitir por el sistema.</div>

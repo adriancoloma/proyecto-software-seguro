@@ -60,7 +60,7 @@ export default function Punto4() {
     const D_formulario3 = dynamic(() => import('../components/punto4/Formulario4'), {ssr: false});
     return (
         <Layout>
-            <h1 style={{margin: '30px', textAlign:'center'}}>Restricciones a los cambios en los paquetes de software </h1>
+            <h1 style={{margin: '30px', textAlign:'center'}}>14.2.4 RESTRICCIONES A LOS CAMBIOS EN LOS PAQUETES DE SOFTWARE</h1>
             {renderizarContenido()}
             <div>
                 {surveyResult && numeroDeSi > 5 && (

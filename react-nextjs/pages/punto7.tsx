@@ -61,7 +61,7 @@ export default function Punto7() {
     const D_formulario8 = dynamic(() => import('../components/punto7/Formulario7'), {ssr: false});
     return (
         <Layout>
-            <h1 style={{margin: '30px', textAlign:'center'}}>Desarrollo subcontratado</h1>
+            <h1 style={{margin: '30px', textAlign:'center'}}>14.2.7 DESARROLLO SUBCONTRATADO </h1>
             {renderizarContenido()}
             <div>
                 {surveyResult && numeroDeSi > 5 && (

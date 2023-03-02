@@ -9,7 +9,7 @@ export default function Punto6g() {
                 <div>El sistema de control de versiones git, ofrece una solución de control sobre el desarrollo de un proyecto con el cual podemos ver el progreso del trabajo solo con inspeccionar el cambio realizado en cada commit. </div>
                 <div>Los pull request permiten no solo llevar de forma más ordenada las tareas en la etapa del desarrollo, sino también crear propuestas o cambios que puedan ser integrados posteriormente a dicho proyecto.</div>
                 <br />
-                <h6><strong>Pasos para hacer un Pull Request en GitHub</strong></h6>
+                <h4><strong>Pasos para hacer un Pull Request en GitHub</strong></h4>
 
                 <ol>
                     <li>Haz un fork del repositorio al que quieres contribuir. En la página del repositorio, haz clic en el botón "Fork" en la esquina superior derecha de la pantalla. Esto creará una copia del repositorio en tu cuenta de GitHub.</li>

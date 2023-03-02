@@ -7,6 +7,7 @@ import Resultados8 from "./Resultados8";
 
 //Crea un modelo de encuesta que se selecciona sí o no para cada pregunta
 const surveyJson = {
+    title: "Encuesta de pruebas de seguridad del sistema",
     elements: [
         {
             type: "radiogroup",

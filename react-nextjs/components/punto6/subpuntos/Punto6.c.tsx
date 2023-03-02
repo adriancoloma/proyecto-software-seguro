@@ -6,15 +6,15 @@ export default function Punto6c() {
     return (
         <div>
             <Accordion title="C) Controles de seguridad ya implementados por la organización que apoyan el desarrollo del sistema.">
-                <h6><strong>Políticas de seguridad de la información </strong></h6>
-                <div>Se conforma de una serie de reglas o pautas establecidas sobre aspectos específicos de la seguridad de la información, en este caso de dividen de la siguiente manera </div>
-                <h6><strong>Organización de la seguridad</strong></h6>
-                <div>Gestión de la seguridad de la información dentro de la organización en el cual se genera un marco gerencial para el control, implementación y seguimiento.</div>
+                <h4><strong>Políticas de seguridad de la información </strong></h4>
+                <p>Se conforma de una serie de reglas o pautas establecidas sobre aspectos específicos de la seguridad de la información, en este caso de dividen de la siguiente manera </p>
+                <h4><strong>Organización de la seguridad</strong></h4>
+                <p>Gestión de la seguridad de la información dentro de la organización en el cual se genera un marco gerencial para el control, implementación y seguimiento.</p>
 
                 <u>Comisión de la seguridad de la información </u>
                 <div><br /></div>
 
-                <table className="table">
+                <table className="table table-striped">
                     <thead>
                         <tr>
                             <th>Área</th>
@@ -51,13 +51,13 @@ export default function Punto6c() {
                     <li>Evaluar, refactorizar y coordinar las distintas implantaciones de control específicas dentro de la seguridad de la información.</li>
                 </ul>
 
-                <h6><strong>Clasificación y control de activos </strong></h6>
-                <div>Los representantes de la seguridad de la información identificasen los activos mas relevantes de la organización asi como de sus sistemas a desarrollar, tomando medidas con sus respectivos propietarios. Estos representantes realizaran un inventario con la información correspondiente y será actualizada, analizada y modificada (de ser necesario) en un periodo mensual. </div>
+                <h4><strong>Clasificación y control de activos </strong></h4>
+                <p>Los representantes de la seguridad de la información identificasen los activos mas relevantes de la organización asi como de sus sistemas a desarrollar, tomando medidas con sus respectivos propietarios. Estos representantes realizaran un inventario con la información correspondiente y será actualizada, analizada y modificada (de ser necesario) en un periodo mensual. </p>
 
                 <u>Confidencialidad </u>
                 <div><br /></div>
 
-                <table className="table">
+                <table className="table table-striped">
                     <thead>
                         <tr>
                             <th>Cuantificador</th>
@@ -92,7 +92,7 @@ export default function Punto6c() {
                 <u>Integridad</u>
                 <div><br /></div>
 
-                <table className="table">
+                <table className="table table-striped">
                     <thead>
                         <tr>
                             <th>Cuantificador</th>
@@ -127,7 +127,7 @@ export default function Punto6c() {
 
                 <u>Disponibilidad</u>
                 <div><br /></div>
-                <table className="table">
+                <table className="table table-striped">
                     <thead>
                         <tr>
                             <th>Cuantificador</th>
@@ -158,8 +158,6 @@ export default function Punto6c() {
                         </tr>
                     </tbody>
                 </table>
-
-
             </Accordion>
         </div>
     );

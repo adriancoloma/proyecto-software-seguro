@@ -14,8 +14,8 @@ import Punto6j from "../components/punto6/subpuntos/Punto6.j";
 
 export default function () {
     return (
-        <>
+        
             <Punto6></Punto6>
-        </>
+        
     );
 }

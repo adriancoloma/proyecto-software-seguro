@@ -60,7 +60,7 @@ export default function Punto3() {
     const D_formulario3 = dynamic(() => import('../components/punto3/Formulario3'), {ssr: false});
     return (
         <Layout>
-            <h1 style={{margin: '30px', textAlign:'center'}}>Revisión técnica de aplicaciones tras cambio de plataforma operativa</h1>
+            <h1 style={{margin: '30px', textAlign:'center'}}>14.2.3 REVISIÓN TÉCNICA DE APLICACIONES TRAS CAMBIO DE PLATAFORMA OPERATIVA </h1>
             {renderizarContenido()}
             <div>
                 {surveyResult && numeroDeSi > 5 && (

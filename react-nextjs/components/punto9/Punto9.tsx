@@ -2,6 +2,7 @@ import {IAcordeon} from "../../interfaces/IAcordeon";
 import React from "react";
 import AccordeonDescripcion from "../AccordeonDescripcion";
 import dynamic from "next/dynamic";
+import Accordion from "../Acordion";
 
 export default function Punto9() {
 
@@ -23,10 +24,14 @@ export default function Punto9() {
     const D_Formulario9 = dynamic(() => import('./Formulario9'), {ssr: false});
     return (
         <>
-            <h1 className={"fs-1"}>Pruebas de aceptación del sistema</h1>
-            <AccordeonDescripcion {...datosAcordeon}></AccordeonDescripcion>
+            <h1 className={"fs-1"}>14.2.9 PRUEBAS DE ACEPTACIÓN DEL SISTEMA </h1>
+            <Accordion title={datosAcordeon.titulo1}>
+                {datosAcordeon.descripcion1}
+            </Accordion>
+            <Accordion title={datosAcordeon.titulo2}>
+                {datosAcordeon.descripcion2}
+            </Accordion>
             <hr/>
-            <h3 className={"fs-2"}>Encuesta</h3>
             <D_Formulario9/>
         </>
     );

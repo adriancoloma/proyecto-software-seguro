@@ -6,7 +6,7 @@ import {Model} from 'survey-core';
 import {Survey} from 'survey-react-ui';
 //import Formulario8 from "./Formulario8";
 import dynamic from "next/dynamic";
-import Formulario5 from './Formulario5';
+import Formulario5 from './Formulario2';
 
 
 
@@ -59,7 +59,7 @@ export default function Resultados5(props: {arrayResp: boolean[]}) {
               <th scope="col"># Pregunta</th>
               <th scope="col">Respuesta</th>
               {resp.includes(false) ? (
-                <th scope="col">Guía de evaluación</th>
+                <th scope="col">Detalle</th>
               ) : (
                 <th scope="col">Guía de evaluación</th>
               )}
