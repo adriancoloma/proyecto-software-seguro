@@ -11,7 +11,7 @@ export default function Punto6f() {
                         Política de Control de Accesos
                     </strong>
                     </h6>
-                    <p>En la aplicación de controles de acceso, se contemplarán los siguientes aspectos:</p>
+                    <div>En la aplicación de controles de acceso, se contemplarán los siguientes aspectos:</div>
                     <ol>
                         <li>Identificar los requerimientos de seguridad de cada uno de los sistemas.</li>
                         <li>Identificar toda la información relacionada con el sistema.</li>
@@ -25,7 +25,7 @@ export default function Punto6f() {
                             Reglas de Control de Acceso
                         </strong>
                     </h6>
-                    <p>Las reglas de control de acceso especificadas deberán:</p>
+                    <div>Las reglas de control de acceso especificadas deberán:</div>
                     <ol>
                         <li>Indicar expresamente si las reglas son obligatorias o no.</li>
                         <li>Controlar los cambios en los permisos de usuario que son iniciados automáticamente por el sistema y aquellos que son iniciados por el administrador.</li>
@@ -38,7 +38,7 @@ export default function Punto6f() {
                             Registro de Usuarios
                         </strong>
                     </h6>
-                    <p>Los responsables de Seguridad Informática definirán un procedimiento formal de registro de usuarios para otorgar y revocar el acceso a todos los sistemas, bases de datos y servicios de información multiusuario, el cual debe comprender:</p>
+                    <div>Los responsables de Seguridad Informática definirán un procedimiento formal de registro de usuarios para otorgar y revocar el acceso a todos los sistemas, bases de datos y servicios de información multiusuario, el cual debe comprender:</div>
                     <ol>
                         <li>Utilizar identificadores de usuario únicos.</li>
                         <li>Verificar que el usuario tiene autorización del Propietario de la Información para el uso del sistema, base de datos o servicio de información.</li>

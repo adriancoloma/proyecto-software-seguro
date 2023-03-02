@@ -23,12 +23,12 @@ export default function Punto6() {
             <Layout title={"14.6.2"}>
                 <h1 style={{ margin: '30px', textAlign: 'center', textTransform: 'uppercase' }}>14.2.6 Entorno de desarrollo seguro</h1>
                 <h6><strong>Control</strong></h6>
-                <p>Las organizaciones deben establecer y proteger adecuadamente entornos de desarrollo seguros para el desarrollo de sistemas y los esfuerzos de integración que cubran todo el ciclo de vida de desarrollo del sistema.</p>
+                <div>Las organizaciones deben establecer y proteger adecuadamente entornos de desarrollo seguros para el desarrollo de sistemas y los esfuerzos de integración que cubran todo el ciclo de vida de desarrollo del sistema.</div>
 
                 <h6><strong>Guía de implementación</strong></h6>
-                <p>Un entorno de desarrollo seguro incluye personas, procesos y tecnología asociados con el desarrollo y la integración de sistemas.</p>
+                <div>Un entorno de desarrollo seguro incluye personas, procesos y tecnología asociados con el desarrollo y la integración de sistemas.</div>
 
-                <p>Las organizaciones deben evaluar los riesgos asociados con los esfuerzos de desarrollo de sistemas individuales y establecer entornos de desarrollo seguros para esfuerzos específicos de desarrollo de sistemas, considerando:</p>
+                <div>Las organizaciones deben evaluar los riesgos asociados con los esfuerzos de desarrollo de sistemas individuales y establecer entornos de desarrollo seguros para esfuerzos específicos de desarrollo de sistemas, considerando:</div>
 \
                 <Punto6a></Punto6a>
                 <Punto6b></Punto6b>

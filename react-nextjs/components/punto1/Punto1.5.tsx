@@ -3,7 +3,7 @@ import AccordionPersonal from "../Acordion";
 
 export default function Punto1_5() {
     return (
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ display: "flex", justifyContent: "center", width: "80%" }}>
             <AccordionPersonal title="E) Repositorios Seguros">
                 <div>Si estás utilizando Git Hub como cliente de Git para la gestión de tus repositorios, es importante que tomes en cuenta las siguientes medidas de seguridad:</div>
 

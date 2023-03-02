@@ -9,7 +9,7 @@ import Layout from "../components/Layout";
 
 function Parrafo({parrafo}) {
     return (
-        <p>{parrafo}</p>
+        <div>{parrafo}</div>
     )
 }
 

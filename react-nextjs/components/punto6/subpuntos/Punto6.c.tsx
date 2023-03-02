@@ -7,9 +7,9 @@ export default function Punto6c() {
         <div>
             <Accordion title="C) Controles de seguridad ya implementados por la organización que apoyan el desarrollo del sistema.">
                 <h6><strong>Políticas de seguridad de la información </strong></h6>
-                <p>Se conforma de una serie de reglas o pautas establecidas sobre aspectos específicos de la seguridad de la información, en este caso de dividen de la siguiente manera </p>
+                <div>Se conforma de una serie de reglas o pautas establecidas sobre aspectos específicos de la seguridad de la información, en este caso de dividen de la siguiente manera </div>
                 <h6><strong>Organización de la seguridad</strong></h6>
-                <p>Gestión de la seguridad de la información dentro de la organización en el cual se genera un marco gerencial para el control, implementación y seguimiento.</p>
+                <div>Gestión de la seguridad de la información dentro de la organización en el cual se genera un marco gerencial para el control, implementación y seguimiento.</div>
 
                 <u>Comisión de la seguridad de la información </u>
                 <div><br /></div>
@@ -41,7 +41,7 @@ export default function Punto6c() {
                     </tbody>
                 </table>
 
-                <p>Las funciones principales por realizar en la empresa son:</p>
+                <div>Las funciones principales por realizar en la empresa son:</div>
                 <ul>
                     <li>Revisar y aprobar políticas, reglamentos, así como de las responsabilidades generales acerca de la seguridad de la información.</li>
                     <li>Analizar y monitorear cambios en la adquisición, exposición y liquidación de activos frente a amenazas.</li>
@@ -52,7 +52,7 @@ export default function Punto6c() {
                 </ul>
 
                 <h6><strong>Clasificación y control de activos </strong></h6>
-                <p>Los representantes de la seguridad de la información identificasen los activos mas relevantes de la organización asi como de sus sistemas a desarrollar, tomando medidas con sus respectivos propietarios. Estos representantes realizaran un inventario con la información correspondiente y será actualizada, analizada y modificada (de ser necesario) en un periodo mensual. </p>
+                <div>Los representantes de la seguridad de la información identificasen los activos mas relevantes de la organización asi como de sus sistemas a desarrollar, tomando medidas con sus respectivos propietarios. Estos representantes realizaran un inventario con la información correspondiente y será actualizada, analizada y modificada (de ser necesario) en un periodo mensual. </div>
 
                 <u>Confidencialidad </u>
                 <div><br /></div>

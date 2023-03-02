@@ -12,15 +12,18 @@ export default function () {
     return (
         <>
             <Layout title={"Punto 1"}>
-                <h1 style={{margin: '30px', textAlign:'center'}}>Seguridad para el desarrollo</h1>
-                <Punto1_1></Punto1_1>
-                <Punto1_2></Punto1_2>
-                <Punto1_3></Punto1_3>
-                <Punto1_4></Punto1_4>
-                <Punto1_5></Punto1_5>
-                <Punto1_6></Punto1_6>
-                <Punto1_7></Punto1_7>
-                <Punto1_8></Punto1_8>
+                <h1 style={{ margin: '30px', textAlign: 'center' }}>Seguridad para el desarrollo</h1>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }} >
+                    <Punto1_1></Punto1_1>
+                    <Punto1_2></Punto1_2>
+                    <Punto1_3></Punto1_3>
+                    <Punto1_4></Punto1_4>
+                    <Punto1_5></Punto1_5>
+                    <Punto1_6></Punto1_6>
+                    <Punto1_7></Punto1_7>
+                    <Punto1_8></Punto1_8>
+                </div>
+
             </Layout>
         </>
     );

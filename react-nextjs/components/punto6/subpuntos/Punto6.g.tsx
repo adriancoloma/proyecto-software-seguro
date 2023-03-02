@@ -6,8 +6,8 @@ export default function Punto6g() {
     return (
         <div>
             <Accordion title="G) Monitoreo del cambio en el entorno y el código almacenado en el mismo.">
-                <p>El sistema de control de versiones git, ofrece una solución de control sobre el desarrollo de un proyecto con el cual podemos ver el progreso del trabajo solo con inspeccionar el cambio realizado en cada commit. </p>
-                <p>Los pull request permiten no solo llevar de forma más ordenada las tareas en la etapa del desarrollo, sino también crear propuestas o cambios que puedan ser integrados posteriormente a dicho proyecto.</p>
+                <div>El sistema de control de versiones git, ofrece una solución de control sobre el desarrollo de un proyecto con el cual podemos ver el progreso del trabajo solo con inspeccionar el cambio realizado en cada commit. </div>
+                <div>Los pull request permiten no solo llevar de forma más ordenada las tareas en la etapa del desarrollo, sino también crear propuestas o cambios que puedan ser integrados posteriormente a dicho proyecto.</div>
                 <br />
                 <h6><strong>Pasos para hacer un Pull Request en GitHub</strong></h6>
 
