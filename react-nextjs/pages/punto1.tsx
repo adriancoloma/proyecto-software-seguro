@@ -1,12 +1,12 @@
 import Layout from "../components/Layout";
-import Punto1_1 from "../components/Punto1.1";
-import Punto1_2 from "../components/Punto1.2";
-import Punto1_3 from "../components/Punto1.3";
-import Punto1_4 from "../components/Punto1.4";
-import Punto1_5 from "../components/Punto1.5";
-import Punto1_6 from "../components/Punto1.6";
-import Punto1_7 from "../components/Punto1.7";
-import Punto1_8 from "../components/Punto1.8";
+import Punto1_1 from "../components/punto1/Punto1.1";
+import Punto1_2 from "../components/punto1/Punto1.2";
+import Punto1_3 from "../components/punto1/Punto1.3";
+import Punto1_4 from "../components/punto1/Punto1.4";
+import Punto1_5 from "../components/punto1/Punto1.5";
+import Punto1_6 from "../components/punto1/Punto1.6";
+import Punto1_7 from "../components/punto1/Punto1.7";
+import Punto1_8 from "../components/punto1/Punto1.8";
 
 export default function () {
     return (

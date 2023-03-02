@@ -1,6 +1,7 @@
 import {IAcordeon} from "../interfaces/IAcordeon";
 
 export default function AccordeonDescripcion(props: IAcordeon) {
+
     return (
         <>
             <div className="accordion" id="accordionPanelsStayOpenExample">

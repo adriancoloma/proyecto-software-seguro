@@ -20,7 +20,7 @@ export default function Resultados7({arrayResp}: {arrayResp: boolean[]}){
                 <th scope="col"># Pregunta</th>
                 <th scope="col">Respuesta</th>
                 <th scope="col">Pregunta</th>
-                <th scope="col">Detalle</th>
+                <th scope="col">Solución</th>
             </tr>
             </thead>
             <tbody>
