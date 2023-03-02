@@ -2,6 +2,7 @@ import {IAcordeon} from "../../interfaces/IAcordeon";
 import React from "react";
 import AccordeonDescripcion from "../AccordeonDescripcion";
 import dynamic from "next/dynamic";
+import Accordion from "../Acordion";
 
 export default function Punto9() {
 
@@ -24,9 +25,13 @@ export default function Punto9() {
     return (
         <>
             <h1 className={"fs-1"}>14.2.9 PRUEBAS DE ACEPTACIÓN DEL SISTEMA </h1>
-            <AccordeonDescripcion {...datosAcordeon}></AccordeonDescripcion>
+            <Accordion title={datosAcordeon.titulo1}>
+                {datosAcordeon.descripcion1}
+            </Accordion>
+            <Accordion title={datosAcordeon.titulo2}>
+                {datosAcordeon.descripcion2}
+            </Accordion>
             <hr/>
-            <h3 className={"fs-2"}>Encuesta</h3>
             <D_Formulario9/>
         </>
     );
