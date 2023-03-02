@@ -7,7 +7,7 @@ import {Survey} from 'survey-react-ui';
 //import Formulario8 from "./Formulario8";
 import dynamic from "next/dynamic";
 import Formulario5 from './Formulario5';
-import { Encuesta } from './Formulario5';
+
 
 
 const respuestas = [

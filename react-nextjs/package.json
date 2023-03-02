@@ -11,7 +11,7 @@
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.11",
     "chart.js": "^4.2.1",
-    "next": "latest",
+    "next": "^13.2.3",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
