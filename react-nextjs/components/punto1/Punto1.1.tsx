@@ -1,5 +1,5 @@
 import React from "react";
-import Accordion from "./Acordion";
+import Accordion from "../Acordion";
 
 
 export default function Punto1_1() {
