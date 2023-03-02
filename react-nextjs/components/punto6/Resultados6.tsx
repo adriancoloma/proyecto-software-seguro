@@ -1,4 +1,4 @@
-import {guias} from "../../utils/encuesta7";
+import {guias} from "../../utils/encuesta6";
 
 function FilaTabla7({numPregunta, respuesta, guiaEvaluacion, detalle}:
     {numPregunta: number, respuesta: string, guiaEvaluacion: string, detalle: string}){
