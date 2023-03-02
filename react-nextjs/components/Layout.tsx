@@ -26,32 +26,32 @@ const Layout = ({children, title = 'This is the default title'}: Props) => (
                         Mi sitio web
                     </Typography>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto1">Punto 1</Link>
+                        <Link style={estiloLinks} href="/punto1">Punto 14.2.1</Link>
                     </Button>
 
                     <Button color="inherit">
-                        <Link style={estiloLinks}  href="/punto2">Punto 2</Link>
+                        <Link style={estiloLinks}  href="/punto2">Punto 14.2.2</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto3">Punto 3</Link>
+                        <Link style={estiloLinks} href="/punto3">Punto 14.2.3</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto4">Punto 4</Link>
+                        <Link style={estiloLinks} href="/punto4">Punto 14.2.4</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto5">Punto 5</Link>
+                        <Link style={estiloLinks} href="/punto5">Punto 14.2.5</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto6">Punto 6</Link>
+                        <Link style={estiloLinks} href="/punto6">Punto 14.2.6</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto7">Punto 7</Link>
+                        <Link style={estiloLinks} href="/punto7">Punto 14.2.7</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto8">Punto 8</Link>
+                        <Link style={estiloLinks} href="/punto8">Punto 14.2.8</Link>
                     </Button>
                     <Button color="inherit">
-                        <Link style={estiloLinks} href="/punto9">Punto 9</Link>
+                        <Link style={estiloLinks} href="/punto9">Punto 14.2.9</Link>
                     </Button>
                 </Toolbar>
             </AppBar>
