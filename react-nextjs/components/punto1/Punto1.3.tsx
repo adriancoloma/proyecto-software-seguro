@@ -2,7 +2,7 @@ import React from "react";
 import AccordionPersonal from "../Acordion";
 export default function Punto1_3() {
     return (
-        <div style={{ display: "flex", justifyContent: "center", width: "80%" }}>
+        <div >
             <AccordionPersonal title="C) Requisitos de seguridad en la fase de diseño">
                 <div>
                     <div><strong>KAOS (Knowledge Acquisition in automated Specification)</strong> es una metodología de ingeniería de requisitos que se enfoca en la adquisición de conocimiento y la especificación automatizada de requisitos de software.</div>

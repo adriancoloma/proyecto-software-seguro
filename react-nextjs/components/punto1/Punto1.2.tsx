@@ -3,7 +3,7 @@ import AccordionPersonal from "../Acordion";
 
 export default function Punto1_2() {
     return (
-        <div style={{ display: "flex", justifyContent: "center", width: "80%" }}>
+        <div >
             <AccordionPersonal title="B) Orientación sobre la seguridad en el ciclo de vida del desarrollo de software">
                 <h2>Seguridad en la metodología de desarrollo de software</h2>
                 <div>

@@ -3,7 +3,7 @@ import AccordionPersonal from "../Acordion";
 
 export default function Punto1_1() {
     return (
-        <div style={{ display: "flex", justifyContent: "center", width: "80%" }}>
+        <div >
             <AccordionPersonal title="A) Seguridad del entorno de desarrollo">
                 <h2>Gestión de Acceso y Autenticación</h2>
                 <div>En este proyecto, la gestión de acceso y autenticación se maneja de la siguiente manera:</div>
