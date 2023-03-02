@@ -1,24 +1,44 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
+function AccordionPersonal({ title, children }) {
+    const [expanded, setExpanded] = useState(false);
 
-function Accordion({ title, children }) {
-    const [isOpen, setIsOpen] = useState(false);
-
-    function toggleAccordion() {
-        setIsOpen(!isOpen);
-    }
+    const handleChange = () => {
+        setExpanded(!expanded);
+    };
 
     return (
-        <div className="accordion" style={{ border: '1px solid #ddd', borderRadius: '5px', marginBottom: '10px' }}>
-            <div className="accordion-item" style={{ backgroundColor: '#B5D9EB', color: '#333', cursor: 'pointer', fontSize: '16px', fontWeight: 'bold', padding: '10px' }} onClick={toggleAccordion}>
-                {title}
-            </div>
-            {isOpen && (
-                <div className="accordion-content" style={{ backgroundColor: '#fff', border: '1px solid #ddd', borderRadius: '5px', marginTop: '10px', padding: '10px' }}>{children}</div>
-            )}
-        </div>
+        <Accordion sx={{
+            backgroundColor: "#B5D9EB",
+            borderRadius: "5px",
+            marginBottom: "10px",
+        }}>
+            <AccordionSummary 
+            
+            sx={{
+                color: "#333",
+                cursor: "pointer",
+                fontSize: "16px",
+                fontWeight: "bold",
+                padding: "10px",
+            }}
+            expandIcon={<ExpandMoreIcon />}>
+                <Typography>{title} </Typography>
+            </AccordionSummary>
+            <AccordionDetails
+            sx={{
+                backgroundColor: "#fff",
+                border: "1px solid #ddd",
+                borderRadius: "5px",
+                padding: "10px",
+            }}>
+                {children}
+            </AccordionDetails>
+        </Accordion>
     );
 }
 
-export default Accordion;
+export default AccordionPersonal;

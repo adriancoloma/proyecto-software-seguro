@@ -10,10 +10,10 @@ export default function Punto6d() {
                 <p>Los responsables de la seguridad física y contratación de personal gestionaran las funciones y responsabilidades en la materia de la seguridad de la información correspondiente a cada puesto de trabajo </p>
                 <u>Política de personal</u>
                 <br />
-                <p>El responsable del Área de Recursos Humanos llevará a cabo controles de verificación del personal en el momento en que se solicita el puesto de personal.</p>
+                <div>El responsable del Área de Recursos Humanos llevará a cabo controles de verificación del personal en el momento en que se solicita el puesto de personal.</div>
                 <u>Compromiso de confidencialidad</u>
                 <br />
-                <p>Como parte de sus términos y condiciones iniciales de empleo, los empleados, cualquiera sea su situación de revista, firmarán un Compromiso de Confidencialidad o no divulgación, en lo que respecta al tratamiento de la información de la organización. </p>
+                <div>Como parte de sus términos y condiciones iniciales de empleo, los empleados, cualquiera sea su situación de revista, firmarán un Compromiso de Confidencialidad o no divulgación, en lo que respecta al tratamiento de la información de la organización. </div>
 
 
                 <h4><strong>Seguridad física y ambiental</strong></h4>

@@ -10,7 +10,7 @@ export default function Punto6i() {
                 <h4><strong>Políticas sobre Control de Movimiento de Datos</strong></h4>
                 <ol>
                     <li>Todos los datos deben ser clasificados según su nivel de sensibilidad y deben ser etiquetados y marcados en consecuencia.
-                        <p className="text-muted">Proporcionado en el punto: A) Sensibilidad de los datos a procesar, almacenar y transmitir por el sistema.</p>
+                        <div className="text-muted">Proporcionado en el punto: A) Sensibilidad de los datos a procesar, almacenar y transmitir por el sistema.</div>
                     </li>
                     <li>El movimiento de datos entre entornos debe estar autorizado y documentado previamente por los propietarios de los datos y los responsables de los entornos respectivos.</li>
                     <li>Los datos solo deben ser transferidos a entornos seguros y aprobados por los responsables de los datos y los entornos.</li>

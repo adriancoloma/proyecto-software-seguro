@@ -6,7 +6,7 @@ export default function Punto6h() {
     return (
         <div>
             <Accordion title="H) Las copias de seguridad se almacenan en ubicaciones seguras fuera del sitio.">
-            <p>Para los proyectos usados se usará el GitHub para empresas, ya que en esta version se añaden características específicas como: </p>
+            <div>Para los proyectos usados se usará el GitHub para empresas, ya que en esta version se añaden características específicas como: </div>
                 <ul>
                     <li>Soporte técnico para GitHub Enterprise</li>
                     <li>Controles de seguridad, cumplimiento e implementación adicionales</li>

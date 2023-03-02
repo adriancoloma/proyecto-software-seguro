@@ -41,7 +41,7 @@ export default function Punto6c() {
                     </tbody>
                 </table>
 
-                <p>Las funciones principales por realizar en la empresa son:</p>
+                <div>Las funciones principales por realizar en la empresa son:</div>
                 <ul>
                     <li>Revisar y aprobar políticas, reglamentos, así como de las responsabilidades generales acerca de la seguridad de la información.</li>
                     <li>Analizar y monitorear cambios en la adquisición, exposición y liquidación de activos frente a amenazas.</li>

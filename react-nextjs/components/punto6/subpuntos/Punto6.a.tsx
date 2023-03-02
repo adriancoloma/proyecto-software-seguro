@@ -31,7 +31,7 @@ export default function Punto6a() {
                             <li>Información de propiedad intelectual: Secretos comerciales, patentes, marcas registradas, derechos de autor y otra información de propiedad intelectual.</li>
                             <br />
                         </ol>
-                        <p>Cada institución u organización solicitante del proyecto debe otorgar una aprobación para usar sus derechos de privacidad y protección de datos de las personas involucradas. </p>
+                        <div>Cada institución u organización solicitante del proyecto debe otorgar una aprobación para usar sus derechos de privacidad y protección de datos de las personas involucradas. </div>
                     </li>
 
                     <li>
@@ -45,7 +45,7 @@ export default function Punto6a() {
                             <li>Información legal: correspondencia legal, documentos de acuerdo, acuerdos de confidencialidad, etc.</li>
                             <br />
                         </ol>
-                        <p>Cada institución u organización solicitante del proyecto debe otorgar una aprobación para usar sus derechos de privacidad y protección de datos de las personas involucradas. </p>
+                        <div>Cada institución u organización solicitante del proyecto debe otorgar una aprobación para usar sus derechos de privacidad y protección de datos de las personas involucradas. </div>
                     </li>
 
                     <li>
@@ -59,7 +59,7 @@ export default function Punto6a() {
                             <li>Información de investigación y desarrollo: investigación y desarrollo de tecnología, nuevos diseños de productos, resultados de pruebas, etc.</li>
                             <br />
                         </ol>
-                        <p>Cada institución u organización solicitante del proyecto debe otorgar una aprobación para usar sus derechos de privacidad y protección de datos de las personas involucradas. </p>
+                        <div>Cada institución u organización solicitante del proyecto debe otorgar una aprobación para usar sus derechos de privacidad y protección de datos de las personas involucradas. </div>
                     </li>
                 </ul>
             </Accordion>
