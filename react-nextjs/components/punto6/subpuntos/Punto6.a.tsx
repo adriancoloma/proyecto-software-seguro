@@ -6,7 +6,7 @@ export default function Punto6a() {
     return (
         <div>
             <Accordion title="A) Sensibilidad de los datos a procesar, almacenar y transmitir por el sistema.">
-                <h6>La sensibilidad de los datos varía según la naturaleza de estos, dependen del contexto y el entorno en el que se desenvolverá el sistema. Se presenta una categorización estándar para todos los sistemas a desarrollar:</h6>
+                <h4>La sensibilidad de los datos varía según la naturaleza de estos, dependen del contexto y el entorno en el que se desenvolverá el sistema. Se presenta una categorización estándar para todos los sistemas a desarrollar:</h4>
                 <ul>
                     <li>
                         <strong>Datos públicos:</strong> datos no confidenciales que se pueden compartir sin riesgo para la organización asi como sus interesados. Se proporciona la siguiente lista de datos públicos.

@@ -7,10 +7,10 @@ export default function Punto6f() {
         <div>
             <Accordion title="F) Control del acceso al entorno de desarrollo.">
                 <div>
-                    <h6> <strong>
+                    <h4> <strong>
                         Política de Control de Accesos
                     </strong>
-                    </h6>
+                    </h4>
                     <p>En la aplicación de controles de acceso, se contemplarán los siguientes aspectos:</p>
                     <ol>
                         <li>Identificar los requerimientos de seguridad de cada uno de los sistemas.</li>
@@ -20,11 +20,11 @@ export default function Punto6f() {
                     </ol>
                 </div>
                 <div>
-                    <h6>
+                    <h4>
                         <strong>
                             Reglas de Control de Acceso
                         </strong>
-                    </h6>
+                    </h4>
                     <p>Las reglas de control de acceso especificadas deberán:</p>
                     <ol>
                         <li>Indicar expresamente si las reglas son obligatorias o no.</li>
@@ -33,11 +33,11 @@ export default function Punto6f() {
                     </ol>
                 </div>
                 <div>
-                    <h6>
+                    <h4>
                         <strong>
                             Registro de Usuarios
                         </strong>
-                    </h6>
+                    </h4>
                     <p>Los responsables de Seguridad Informática definirán un procedimiento formal de registro de usuarios para otorgar y revocar el acceso a todos los sistemas, bases de datos y servicios de información multiusuario, el cual debe comprender:</p>
                     <ol>
                         <li>Utilizar identificadores de usuario únicos.</li>
