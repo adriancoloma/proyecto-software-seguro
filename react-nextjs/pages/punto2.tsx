@@ -62,25 +62,17 @@ export default function Punto5() {
         })
     }
 
-    const D_formulario8 = dynamic(() => import('../components/punto2/Formulario2'), {ssr: false});
+    const D_formulario2 = dynamic(() => import('../components/punto2/Formulario2'), {ssr: false});
     return (
         <Layout>
             <h1 style={{margin: '30px', textAlign:'center'}}>14.2.2 PROCEDIMIENTOS DE CONTROL DE CAMBIOS DEL SISTEMA </h1>
             {renderizarContenido()}
             <div>
-                {surveyResult && numeroDeSi > 5 && (
-                    <div>
-                        <h1>¡Felicitaciones!</h1>
-                    </div>
-                )}
-                {surveyResult && numeroDeSi <= 5 && (
-                    <div>
-                        <h1>¡Lo sentimos!</h1>
-                    </div>
-                )}
+               
+                
             </div>
             <hr/>
-            <D_formulario8/>
+            <D_formulario2/>
         </Layout>
     );
 }
