@@ -1,10 +1,9 @@
 import {Model} from "survey-core";
 import {useCallback, useState} from "react";
 import {Survey} from "survey-react-ui";
-import Resultados8 from "../punto8/Resultados8";
-import json from "../../utils/punto4/encuesta4";
-import Resultados4 from "./Resultados4";
-export default function Formulario4() {
+import json from "../../utils/encuesta6";
+import Resultados6 from "./Resultados6";
+export default function Formulario6() {
     const encuesta = new Model(json);
 
     const [encuestaCompleta, setEncuestaCompleta] = useState(false);
@@ -22,7 +21,7 @@ export default function Formulario4() {
         <>
             {!encuestaCompleta && <Survey model={encuesta}/>}
 
-            {encuestaCompleta && <Resultados4 arrayResp={respuestas}/>}
+            {encuestaCompleta && <Resultados6 arrayResp={respuestas}/>}
         </>
     );
 }

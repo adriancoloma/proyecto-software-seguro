@@ -1,7 +1,7 @@
-import {guias} from "../../utils/punto3/encuesta3";
+import {guias} from "../../utils/encuesta6";
 
-function FilaTabla3({numPregunta, respuesta, guiaEvaluacion, detalle}:
-                        {numPregunta: number, respuesta: string, guiaEvaluacion: string, detalle: string}){
+function FilaTabla7({numPregunta, respuesta, guiaEvaluacion, detalle}:
+    {numPregunta: number, respuesta: string, guiaEvaluacion: string, detalle: string}){
     return (
         <tr>
             <th scope="row">{numPregunta}</th>
@@ -12,22 +12,22 @@ function FilaTabla3({numPregunta, respuesta, guiaEvaluacion, detalle}:
     )
 }
 
-export default function Resultados3({arrayResp}: {arrayResp: boolean[]}){
+export default function Resultados6({arrayResp}: {arrayResp: boolean[]}){
     return (
         <table className="table">
             <thead>
             <tr>
                 <th scope="col"># Pregunta</th>
                 <th scope="col">Respuesta</th>
-                <th scope="col">Detalle</th>
-                <th scope="col">Guía</th>
+                <th scope="col">Pregunta</th>
+                <th scope="col">Solución</th>
             </tr>
             </thead>
             <tbody>
             {arrayResp.map((resp, index) => {
                 const esCumplido = resp ? "Cumplido" : "No cumplido";
                 const detalle = resp ? "" : guias[index].detalle;
-                return <FilaTabla3 numPregunta={index + 1} respuesta={esCumplido} guiaEvaluacion={guias[index].guia} detalle={detalle}/>
+                return <FilaTabla7 numPregunta={index + 1} respuesta={esCumplido} guiaEvaluacion={guias[index].guia} detalle={detalle}/>
             })
             }
             </tbody>
