@@ -4,6 +4,7 @@ import AccordeonDescripcion from "../AccordeonDescripcion";
 import {IAcordeon} from "../../interfaces/IAcordeon";
 //import Formulario8 from "./Formulario8";
 import dynamic from "next/dynamic";
+import Accordion from "../Acordion";
 
 export default function Punto8() {
     let datosAcordeon: IAcordeon = {
@@ -16,9 +17,13 @@ export default function Punto8() {
     return (
         <>
             <h1 className={"fs-1"}>14.2.8 PRUEBAS DE SEGURIDAD DEL SISTEMA </h1>
-            <AccordeonDescripcion {...datosAcordeon}></AccordeonDescripcion>
+            <Accordion title={datosAcordeon.titulo1}>
+                {datosAcordeon.descripcion1}
+            </Accordion>
+            <Accordion title={datosAcordeon.titulo2}>
+                {datosAcordeon.descripcion2}
+            </Accordion>
             <hr/>
-            <h3 className={"fs-2"}>Encuesta</h3>
             <D_Formulario8/>
         </>
     )

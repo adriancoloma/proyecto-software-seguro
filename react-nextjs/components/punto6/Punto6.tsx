@@ -47,7 +47,6 @@ export default function Punto6() {
 
 
             </Layout>
-        </>
     );
 }
 

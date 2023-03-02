@@ -6,10 +6,7 @@ import Resultados9 from "./Resultados9";
 
 //Crea un modelo de encuesta que se selecciona sí o no para cada pregunta
 const listaPreguntas = [
-    "¿Se establecen programas de prueba de aceptación para nuevos sistemas de información, actualizaciones y nuevas versiones?",
     "¿Se definen criterios de prueba de aceptación relacionados con los nuevos sistemas de información, actualizaciones y nuevas versiones?",
-    "¿Las pruebas de aceptación del sistema incluyen pruebas de los requisitos de seguridad de la información según lo especificado en el control 14.1.1?",
-    "¿Las pruebas de aceptación del sistema incluyen pruebas del cumplimiento de las prácticas de desarrollo de sistemas seguros según lo especificado en el control 14.2.1?",
     "¿Se realizan pruebas de aceptación del sistema en los componentes recibidos y los sistemas integrados?",
     "¿Se utilizan herramientas automatizadas, como herramientas de análisis de código o escáneres de vulnerabilidades, para verificar la corrección de los defectos relacionados con la seguridad?",
     "¿Las pruebas de aceptación se realizan en proporción a la importancia y naturaleza del sistema?",
@@ -17,6 +14,7 @@ const listaPreguntas = [
 ]
 
 const surveyJson = {
+    title: "Encuesta de pruebas de aceptación del sistema",
     elements:
         listaPreguntas.map((pregunta, index) => {
             return {

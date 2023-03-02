@@ -1,45 +1,29 @@
 const respuestas = [
     {
         id: 1,
-        guia: "Revisar la documentación de pruebas realizadas durante el desarrollo y confirmar si se realizó una prueba exhaustiva y verificación de la funcionalidad de seguridad.",
-        detalle: "Se debe establecer un programa de prueba de aceptación en colaboración con el equipo de desarrollo y los usuarios finales para definir los criterios y procedimientos de prueba que se ajusten a la importancia y naturaleza del sistema."
+        guia: "Es importante que se definan criterios de prueba de aceptación para nuevos sistemas de información, actualizaciones y nuevas versiones para asegurar que estos cumplan con los requisitos de seguridad de la información y con las prácticas de desarrollo de sistemas seguros.",
+        detalle: "Se deben establecer criterios de prueba de aceptación relacionados con los nuevos sistemas de información, actualizaciones y nuevas versiones."
     },
     {
         id: 2,
-        guia: "",
-        detalle: "Se debe definir criterios de prueba de aceptación para evaluar la seguridad y el cumplimiento de las prácticas de desarrollo de sistemas seguros."
+        guia: "Las pruebas de aceptación del sistema deben incluir componentes recibidos y sistemas integrados para asegurar que estos no introduzcan vulnerabilidades al entorno de la organización y que el sistema completo funcione correctamente.",
+        detalle: "Se deben realizar pruebas de aceptación del sistema en los componentes recibidos y los sistemas integrados."
     },
     {
         id: 3,
-        guia: "",
-        detalle: "Se debe realizar pruebas de los requisitos de seguridad de la información según lo especificado en el control 14.1.1 para evaluar si el sistema cumple con los requisitos de seguridad necesarios."
+        guia: "Las herramientas automatizadas pueden ser útiles para verificar la corrección de los defectos relacionados con la seguridad en el sistema.",
+        detalle: "Se deben considerar el uso de herramientas automatizadas, como herramientas de análisis de código o escáneres de vulnerabilidades, para verificar la corrección de los defectos relacionados con la seguridad."
     },
     {
         id: 4,
-        guia: "",
-        detalle: "Se debe realizar pruebas para evaluar el cumplimiento de las prácticas de desarrollo de sistemas seguros según lo especificado en el control 14.2.1."
+        guia: "Es importante que las pruebas de aceptación sean proporcionales a la importancia y naturaleza del sistema. Esto asegura que se prueben adecuadamente los requisitos de seguridad de la información y las prácticas de desarrollo de sistemas seguros para el sistema en cuestión.",
+        detalle: "Se deben ajustar las pruebas de aceptación para que sean proporcionales a la importancia y naturaleza del sistema."
     },
     {
         id: 5,
-        guia: "",
-        detalle: "Se debe realizar pruebas de aceptación del sistema en los componentes recibidos y los sistemas integrados para asegurarse de que el sistema funciona de manera efectiva y segura"
-    },
-    {
-        id: 6,
-        guia: "",
-        detalle: "Se debe utilizar herramientas automatizadas para verificar la corrección de los defectos relacionados con la seguridad y garantizar que el sistema sea seguro."
-    },
-    {
-        id: 7,
-        guia: "",
-        detalle: "Se debe realizar pruebas de aceptación en proporción a la importancia y naturaleza del sistema para garantizar que se realicen las pruebas adecuadas y se cubran los riesgos de seguridad."
-    },
-    {
-        id: 8,
-        guia: "",
-        detalle: "Se debe documentar los resultados de las pruebas de aceptación del sistema para poder analizar y evaluar los resultados de las pruebas y tomar medidas correctivas si"
+        guia: "La documentación de los resultados de las pruebas de aceptación del sistema es importante para llevar un registro de las pruebas realizadas y sus resultados, así como para facilitar la identificación y corrección de problemas de seguridad.",
+        detalle: "Se deben documentar los resultados de las pruebas de aceptación del sistema."
     }
-
 ]
 export default function Resultados9(props: { arrayResp: boolean[] }) {
     const resp = props.arrayResp;
