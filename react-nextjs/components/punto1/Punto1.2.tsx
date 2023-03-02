@@ -1,21 +1,21 @@
 import React from "react";
-import Accordion from "../Acordion";
+import AccordionPersonal from "../Acordion";
 
 
 export default function Punto1_2() {
     return (
-        <div>
-            <Accordion title="B) Orientación sobre la seguridad en el ciclo de vida del desarrollo de software">
+        <div style={{ display: "flex", justifyContent: "center" }}>
+            <AccordionPersonal title="B) Orientación sobre la seguridad en el ciclo de vida del desarrollo de software">
                 <h2>Seguridad en la metodología de desarrollo de software</h2>
-                <p>
+                <div>
                     Durante el desarrollo de software se utilizará el marco de referencia STRIDE para identificar las posibles amenazas al sistema software partiendo desde los activos de seguridad importantes en el proyecto, es decir los que generen ingresos a la organización.
-                </p>
-                <p>
+                </div>
+                <div>
                     Una vez identificadas las amenazas se procederá medir el riesgo en cada una de ellas por parte de un equipo experto en el área. Una vez categorizado el riesgo se deberá acordar con el gerente del proyecto y demás personal involucrado en el desarrollo del producto cuáles serán las estrategias y medidas a implementar para tratar las amenazas encontradas.
-                </p>
-                <p>
+                </div>
+                <div>
                     Toda amenaza debe tener un respectivo encargado de su monitoreo y control lo que permitirá encontrar posibles nuevas amenazas durante el desarrollo del sistema software.
-                </p>
+                </div>
                 <h2>Pautas de codificación segura para cada lenguaje de programación utilizado</h2>
                 <h3>Generales</h3>
                 <ul>
@@ -42,14 +42,14 @@ export default function Punto1_2() {
                     </li>
                 </ul>
                 <h2>Java</h2>
-                <p><strong>Mensajes en consola:</strong> Es importante evitar los mensajes de impresión de salida ya que pueden proporcionar información sensible al atacante.</p>
-                <p><strong>Encapsulación:</strong> Se recomienda hacer uso de los modificadores de acceso para proteger la información sensible y prevenir el acceso no autorizado a clases, métodos y atributos.</p>
-                <p><strong>Manejo de Excepciones:</strong> Capturar las excepciones puede proporcionar menos información al atacante sobre la lógica y el lenguaje del software.</p>
+                <div><strong>Mensajes en consola:</strong> Es importante evitar los mensajes de impresión de salida ya que pueden proporcionar información sensible al atacante.</div>
+                <div><strong>Encapsulación:</strong> Se recomienda hacer uso de los modificadores de acceso para proteger la información sensible y prevenir el acceso no autorizado a clases, métodos y atributos.</div>
+                <div><strong>Manejo de Excepciones:</strong> Capturar las excepciones puede proporcionar menos información al atacante sobre la lógica y el lenguaje del software.</div>
                 <h2>Python</h2>
-                <p><strong>Funciones criptográficas seguras:</strong> Se recomienda utilizar la librería criptográfica de Python si se requiere algún tipo de encriptación en el proyecto.</p>
-                <p><strong>Variables de entorno:</strong> Es recomendable utilizar variables de entorno para almacenar información confidencial.</p>
-                <p><strong>Librerías actualizadas:</strong> Es importante asegurarse de utilizar las últimas versiones de Python y de las librerías utilizadas para prevenir vulnerabilidades conocidas.</p>
-            </Accordion>
+                <div><strong>Funciones criptográficas seguras:</strong> Se recomienda utilizar la librería criptográfica de Python si se requiere algún tipo de encriptación en el proyecto.</div>
+                <div><strong>Variables de entorno:</strong> Es recomendable utilizar variables de entorno para almacenar información confidencial.</div>
+                <div><strong>Librerías actualizadas:</strong> Es importante asegurarse de utilizar las últimas versiones de Python y de las librerías utilizadas para prevenir vulnerabilidades conocidas.</div>
+            </AccordionPersonal>
         </div>
     );
 }

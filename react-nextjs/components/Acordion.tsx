@@ -1,8 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material";
+import { ExpandMore } from "@mui/icons-material";
 
 
-function Accordion({ title, children }) {
+function AccordionPersonal({ title, children }): JSX.Element {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleAccordion() {
@@ -10,15 +12,44 @@ function Accordion({ title, children }) {
     }
 
     return (
-        <div className="accordion" style={{ border: '1px solid #ddd', borderRadius: '5px', marginBottom: '10px' }}>
-            <div className="accordion-item" style={{ backgroundColor: '#B5D9EB', color: '#333', cursor: 'pointer', fontSize: '16px', fontWeight: 'bold', padding: '10px' }} onClick={toggleAccordion}>
-                {title}
-            </div>
-            {isOpen && (
-                <div className="accordion-content" style={{ backgroundColor: '#fff', border: '1px solid #ddd', borderRadius: '5px', marginTop: '10px', padding: '10px' }}>{children}</div>
-            )}
+        <div style={{ display: "flex", justifyContent: "center", width: "80%" }}>
+            <Accordion
+                sx={{
+                    backgroundColor: "#B5D9EB",
+                    borderRadius: "5px",
+                    marginBottom: "10px",
+                }}
+                expanded={isOpen}
+                onChange={toggleAccordion}
+            >
+                <AccordionSummary
+                    expandIcon={<ExpandMore />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                    sx={{
+                        color: "#333",
+                        cursor: "pointer",
+                        fontSize: "16px",
+                        fontWeight: "bold",
+                        padding: "10px",
+                    }}
+                >
+                    {title}
+                </AccordionSummary>
+                <AccordionDetails
+                    sx={{
+                        backgroundColor: "#fff",
+                        border: "1px solid #ddd",
+                        borderRadius: "5px",
+                        padding: "10px",
+                    }}
+                >
+                    <Typography>{children}</Typography>
+                </AccordionDetails>
+            </Accordion>
         </div>
+
     );
 }
 
-export default Accordion;
+export default AccordionPersonal;
