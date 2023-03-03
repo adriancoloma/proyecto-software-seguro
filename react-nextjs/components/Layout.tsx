@@ -23,7 +23,7 @@ const Layout = ({children, title = 'This is the default title'}: Props) => (
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" style={{ flexGrow: 1 }}>
-                        Mi sitio web
+                        Seguridad en el proceso de desarrollo de software
                     </Typography>
                     <Button color="inherit">
                         <Link style={estiloLinks} href="/punto1">Punto 14.2.1</Link>
